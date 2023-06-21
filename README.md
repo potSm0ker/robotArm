@@ -13,6 +13,6 @@ Ubuntu 20.04 / ROS Noetic
 
 
 # Robotic Arm Yahboom 6DOFBOT with Jetson Nano 4gb open source
-30,000 foot goal: Create an arm that is a robot and can trim cannabis using open cv or other methods of live video feed object detection
+30,000 foot goal: Create a robotic arm that can trim cannabis using open cv or other methods of video object detection
 The arm will be able to grasp a branch from a bin full of branches, then hold the branch while a second arm
-holding scissor will trim the buds. The finished buds will be dropped into a bucket when complete.
+holding scissors will trim the buds. The finished buds will be dropped into a bucket when complete.
