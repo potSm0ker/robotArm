@@ -7,27 +7,11 @@ I will store the info I find useful in this repository. Some code in this reposi
 
 <details>
 
-<summary>My 6-Degree Of Freedom(DOF) yahboom with jetson nano 4gb robotic arm system:</summary>
+<summary> 30,000 foot goal. Define the problem that will be solved </summary>
 
-- Operating System: Ubuntu 18  64bit
-- rosdistro: melodic
-- rosversion: 1.14.13
-- Im using a 17" HDMI monitor, wireless keyboard and mouse plugged into USB on the Jetson Nano, which is plugged into yahboom control board. Use the terminal to run python scripts directly on the robot. This is the easiest way and gives the user complete control over the robot.
+Create a pair of electric robotic arms that can **automatically** trim dried cannabis flowers using a standard pair of trimming scissors. The arm uses servo motors to rotate the joints. For vision- open cv or other methods of object detection using camera. The arm will be able to grasp a branch/bud from a bin full of branches, then hold the branch while a second arm holding scissors will trim the buds. The finished buds will be dropped into a bucket when complete. **The target goal is to trim 1 pound of cannabis in 8 hours time.** The average human trimmer would trim for about 7.2 hours in a standard work day, 1 pound would be the expected minimum. 2 pounds would be a high amount for a human trimmer in a standard 8 hour work day.
 
 </details>
-
-<details>
-
-<summary>Here are the ROS versions supported by Ubuntu:</summary>
-
-- Ubuntu 16.04 / ROS Kinetic
-- Ubuntu 18.04 / ROS Melodic
-- Ubuntu 20.04 / ROS Noetic
-
-</details>
-
-### See assets folder for visual definition of bud, branch, fan leaf and other items.
-
 
 <details>
 
@@ -49,12 +33,31 @@ I will store the info I find useful in this repository. Some code in this reposi
 
 - Branch arm able to rotate the bud/branch while scissor arm opens and closes scissors to complete trim
 
+### See assets folder for visual definition of bud, branch, fan leaf and other items.
+
 </details>
 
 <details>
 
-<summary> 30,000 foot goal. Define the problem that will be solved </summary>
+<summary>My 6-Degree Of Freedom(DOF) yahboom with jetson nano 4gb robotic arm system:</summary>
 
-Create a pair of electric robotic arms that can **automatically** trim dried cannabis flowers using a standard pair of trimming scissors. The arm uses servo motors to rotate the joints. For vision- open cv or other methods of object detection using camera. The arm will be able to grasp a branch/bud from a bin full of branches, then hold the branch while a second arm holding scissors will trim the buds. The finished buds will be dropped into a bucket when complete. **The target goal is to trim 1 pound of cannabis in 8 hours time.** The average human trimmer would trim for about 7.2 hours in a standard work day, 1 pound would be the expected minimum. 2 pounds would be a high amount for a human trimmer in a standard 8 hour work day.
+- Operating System: Ubuntu 18  64bit
+- rosdistro: melodic
+- rosversion: 1.14.13
+- Im using a 17" HDMI monitor, wireless keyboard and mouse plugged into USB on the Jetson Nano, which is plugged into yahboom control board. Use the terminal to run python scripts directly on the robot. This is the easiest way and gives the user complete control over the robot.
 
 </details>
+
+<details>
+
+<summary>Here are the ROS versions supported by Ubuntu:</summary>
+
+- Ubuntu 16.04 / ROS Kinetic
+- Ubuntu 18.04 / ROS Melodic
+- Ubuntu 20.04 / ROS Noetic
+
+</details>
+
+
+
+
