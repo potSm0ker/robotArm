@@ -1,12 +1,12 @@
-# This folder contains images of products the robot arm will handle and environment the robot will traverse
-# The physical working environment and equipment will be described here
+## This folder contains images of products the robot arm will handle and environment the robot will traverse
+### The physical working environment and equipment will be described here
 
 
 <details>
 
 <summary> Definitions </summary>
 
-## These are items that will be used in the day to day operations involving the robot.
+### These are items that will be used in the day to day operations involving the robot.
 
 buds = also called flower or nugs, the final product that will be sold to consumers, the end goal
 fan leaves = attached to the buds, they will be removed with scissors and collected for processing and sale
