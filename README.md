@@ -1,4 +1,4 @@
-# Robotic Arm Yahboom 6DOF-BOT with Jetson Nano 4gb open source
+# Robotic Arm Yahboom 6DOF with Jetson Nano 4gb
 
 <details>
 
