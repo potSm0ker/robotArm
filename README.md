@@ -2,7 +2,7 @@
 
 <details>
 
-<summary> 30,000 foot goal. Create a pair of electric robotic arms that can trim cannabis </summary>
+<summary> ***30,000 foot goal.*** Create a pair of electric robotic arms that can trim cannabis </summary>
 
 Create a pair of electric robotic arms that can **automatically** trim dried cannabis flowers using a standard pair of trimming scissors. The arm uses servo motors to rotate the joints. For vision- open cv or other methods of object detection using camera. The arm will be able to grasp (using a two fingered-claw) a branch or bud from a bin full of branches, then hold the branch while a second arm with scissors attached (to the claw) will trim the buds. The finished buds will be dropped into a bucket when complete. **The target goal is to trim 1 pound of cannabis in 8 hours time.** The average human trimmer would trim for about 7.2 hours in a standard work day, 1 pound would be the expected minimum. 2 pounds would be a high amount for a human trimmer in a standard 8 hour work day.
 
