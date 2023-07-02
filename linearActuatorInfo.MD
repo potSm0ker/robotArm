@@ -24,7 +24,7 @@
 - www.teknic.com
 - [top choice - clear path motors](https://teknic.com/products/clearpath-brushless-dc-servo-motors/clearpath-sc/)
 - [clear path motors youtube](https://www.youtube.com/watch?v=1S7etlhbuFY&list=PLuMmdjFz-3nzWAxdQWN__v9P9fYJkGCvS&index=2)
-- [clear path motor connect to arduino](https://www.youtube.com/watch?v=QZLwDnGSaeI&list=PLuMmdjFz-3nzWAxdQWN__v9P9fYJkGCvS&index=8)
+- [connect clear path motor  to arduino](https://www.youtube.com/watch?v=QZLwDnGSaeI&list=PLuMmdjFz-3nzWAxdQWN__v9P9fYJkGCvS&index=8)
 
 
 
@@ -40,7 +40,7 @@
 ### Found diy video and parts list
 
 
-(DIY slide rail assembly)[https://www.youtube.com/watch?v=bwkWi0-p5mU]
+[DIY slide rail assembly youtube](https://www.youtube.com/watch?v=bwkWi0-p5mU)
 - parts list for a DIY linear rail
  - Aluminium profile T-Slot 30cm
  - Aluminium profile T-Slot 5cm
