@@ -1,0 +1,25 @@
+add custom_data.yaml file to yolov5/data folder
+
+add train_data folder to same directory as yolov5
+
+zip train_data folder before adding to google colab
+
+!unzip -q /content/train_data.zip
+rm /content/train_data.zip
+
+# Train YOLOv5s on COCO128 for 3 epochs
+
+change --data to custom_data.yaml   
+!python train.py --img 640 --batch 16 --epochs 3 --data coco128.yaml --weights yolov5s.pt --cache
+
+custom weights are in runs directory
+
+# Train YOLOv5s on COCO128 for 3 epochs
+!python train.py --img 640 --batch 16 --epochs 200 --data custom_data.yaml --weights yolov5s.pt --cache
+
+
+300 epochs
+ Class     Images  Instances          P          R      mAP50   mAP50-95: 100%|██████████| 1/1 [00:00<00:00, 10.15it/s]
+                   all          8         10      0.995          1      0.995      0.949
+
+read the directions... think about the directions... calm down... 
