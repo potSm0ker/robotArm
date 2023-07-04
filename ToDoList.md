@@ -47,6 +47,6 @@ https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master
 
 - [mini jetson nano car](https://medium.com/@anandmohan_8991/jetbot-using-l298n-pwm-motor-a6556ed358d6)
 - tech support from yahboom - support@yahboom.com
-- [official yahboom website] (https://www.yahboom.net/home)
+- [official yahboom website](https://www.yahboom.net/home)
 
 </details>
