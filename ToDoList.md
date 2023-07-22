@@ -4,7 +4,7 @@
 <summary> ## To Do List </summary>
 
 ## slide rail how should slide rail move?
-
+- get a second arm, hiwonder jetmax with slide rail 
 - ***how can i program the slide rail to move the robot up and down when needed, automatically. it needs a signal when the arm needs to grab a branch, and it needs a signal when the branch has been trimmed. 
 - arm sends signal to slide rail. 
 - mount the robot arm on a linear actuator slide rail(1000mm). Mount the slide rail to the wall vertically, it will move up and down the wall, this way the robot will be able to reach into a bin on the floor. (see linearActuatorInfo.MD)
@@ -13,7 +13,7 @@
 ## computer vision how will robot detect and pick up branch?
 
 - Create custom data sets for individual buds and branches.
-- yolov5 is compatible with yahboom robot arm
+- yolov5-pytorch is compatible with robots current python version 3.6.9, unable to upgrade with factory image usb provided by yahboom. will try to use google colab to train model using pytorch code copied from robot system
 - The camera will identify the branch closest to the end effector and send the coordinates to the branch arm to pick up and hold. There will be many other branches that look similar and will be close together.
   
   
@@ -43,10 +43,5 @@ https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master
  - https://github.com/ultralytics/ultralytics
  - https://www.roboflow.com 
 
-## websites
-
-- [mini jetson nano car](https://medium.com/@anandmohan_8991/jetbot-using-l298n-pwm-motor-a6556ed358d6)
-- tech support from yahboom - support@yahboom.com
-- [official yahboom website](https://www.yahboom.net/home)
 
 </details>
