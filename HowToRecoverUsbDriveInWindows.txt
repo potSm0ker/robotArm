@@ -1,4 +1,4 @@
-How to revover usb drive in windows after writing an image file to disk
+How to recover usb drive in windows after writing an image file to disk
 
 To view the disks, run (press Win+r and type, either find in the Start menu, or run in the command line):
 
