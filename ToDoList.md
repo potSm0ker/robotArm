@@ -1,21 +1,19 @@
 ## To Do List
 
 ## computer vision how will robot detect and pick up branch?
-
-- been trying for a few days now to upgrade python to version 3.8 so i can use yolov5 on the jetson locally.
-- the operating system fails to boot properly after changing default version of python
-- issues installing requirements for yolov5
-- unable to use model and code for yolov5 with python3.6?
-- overheated jetson when trying to use yolv5-pytorch code that came pre-loaded on jetson
-- Create custom data sets for individual buds and branches.
-- yolov5-pytorch is compatible with robots current python version 3.6.9, unable to upgrade with factory image usb provided by yahboom. will try to use google colab to train model using pytorch code copied from robot system
-- The camera will identify the branch closest to the end effector and send the coordinates to the branch arm to pick up and hold. There will be many other branches that look similar and will be close together.
+# yolov5
+- create a virtual env, install python3.8 and upgrade pip
+- install requirements for yolov5
+- Use google colab ultralytics to create custom data sets for individual buds and branches.
+- Use yolov5 custom model to get coordinates of branch in frame.
+- The camera will identify the branch closest to the end effector and return the coordinates to the branch arm to pick up and hold. There will be many other branches that look similar and will be close together. How can i decide which branch should be picked up?
   
   
 
 https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/YoloV5_training.ipynb
-- use this for creating annotion boxes - [make sense AI](https://www.makesense.ai/)    -browser based, no download, no install
 
+# Annotation box app for creating custom data set
+- [Make Sense AI](https://www.makesense.ai/)    -browser based, no download, no install
 
 
 
