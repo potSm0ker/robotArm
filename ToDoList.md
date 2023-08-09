@@ -1,7 +1,7 @@
 ## To Do List
 
 ## computer vision how will robot detect and pick up branch?
-# yolov5 with luxonis oak d pro depth camera
+- upgrade camera with [luxonis oak d pro](https://www.luxonis.com), use yolov5
 - spatial calculation- get distance and location of branch to direct the claw
 - create a virtual env with python3.8-venv, install python3.8 and upgrade pip
 - install requirements for yolov5
