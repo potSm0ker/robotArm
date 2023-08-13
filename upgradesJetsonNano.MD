@@ -12,9 +12,9 @@ A useful website for [jetson nano hacks](https://www.jetsonhacks.com/)
 ### Increase storage  SAMSUNG T7 Portable SSD 500GB
  - I used win32disk imager to write the custom jetson image provided by yahboom for the robot arm
  - running operations on the jetson nano is much faster using an external ssd via usb3 rather than a micro usb drive.
+ - run  gparted    in the terminal to see partitions and expand the file system partion to use the entire 500 gb SSD, in my case it was /dev/sda1 
  - boot from usb [jetsonhacks.com](https://jetsonhacks.com/2021/03/10/jetson-nano-boot-from-usb/)
- - increase the storage space by copying and mounting the file system to a usb drive of your choice
- - create backups of boot device
+ - create backups of critical files before attempting, loss of data may occur when trying to remount file system
  
 
 
