@@ -20,5 +20,5 @@ A useful website for [jetson nano hacks](https://www.jetsonhacks.com/)
 
 
 
-### Upgrade cooling fan and heat sink
+### Upgrade cooling fan and heat sink - GeeekPi 5V PWM Low-Profile CPU Cooler
  - I upgraded to [Ice tower cooling fan](https://www.amazon.com/GeeekPi-Low-Profile-Horizontal-Radiator-Colorful/dp/B07ZYW6ZVR/ref=sr_1_3?crid=2GY7QMQU6IJJ&keywords=ice+tower+cooling+fan+jetson+nano&qid=1690327939&sprefix=ice+tower+cooling+fan+jetson+nano%2Caps%2C132&sr=8-3) from amazon.com
