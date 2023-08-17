@@ -4,6 +4,7 @@
 - create virtual environments with python3.8(at least) to install requirements for yolo and other upgrades 
 - upgrade camera with [luxonis oak d pro](https://www.luxonis.com), use yolov5
 - https://github.com/luxonis/depthai-ml-training/tree/master/colab-notebooks
+- [Convert custom yolo model to blob](https://tools.luxonis.com)  Set input shape to: 416
 - spatial calculation- get distance and location of branch to direct the claw
 - create a virtual env with python3.8-venv, install python3.8 and upgrade pip
 - install requirements for yolov5
