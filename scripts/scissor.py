@@ -3,6 +3,7 @@
 import time
 from Arm_Lib import Arm_Device
 
+# this will open and close the scissors attached to the claw, this script opens and closes the 6th servo
 
 Arm = Arm_Device()
 time.sleep(.1)
