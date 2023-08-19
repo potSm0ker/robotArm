@@ -1,17 +1,18 @@
 ## To Do List
 
-## computer vision how will robot detect and pick up branch?
-- create virtual environments with python3.8(at least) to install requirements for yolo and other upgrades 
-- upgrade camera with [luxonis oak d pro](https://www.luxonis.com), use yolov5
-- https://github.com/luxonis/depthai-ml-training/tree/master/colab-notebooks
-- [Convert custom yolo model to blob](https://tools.luxonis.com)  Set input shape to: 416
-- spatial calculation- get distance and location of branch to direct the claw
-- create a virtual env with python3.8-venv, install python3.8 and upgrade pip
-- install requirements for yolov5
-- Use google colab ultralytics to create custom data sets for individual buds and branches.
-- Use yolov5 custom model to get coordinates of branch in frame.
-- The camera will identify the branch closest to the end effector and return the coordinates to the branch arm to pick up and hold. There will be many other branches that look similar and will be close together. How can i decide which branch should be picked up?
+## How will robot trim the bud with scissors?
+- use yolov5?
+- using oak d camera/yolov5, get the x,y,z coordinates of the leaves that need to be cut.
+- scan bud and determine locations of leaf
+- use the 'z' coordinate to create a boundary at the scissors, when the bud leaf crosses the threshold, the scissors should close.
+- spatial calculation- get distance and location of bud to direct the claw holding the scissors
   
+
+
+
+- Use yolov5 custom model to get coordinates of branch/bud in frame.
+
+- create virtual environments with python3.8(at least) to install requirements 
   
 
 https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/YoloV5_training.ipynb
@@ -40,6 +41,6 @@ https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master
  - https://shop.luxonis.com/  for cameras
   
 - ### 3d print sites
- - www.markforged.com
+ - www.xometry.com
 
 </details>
