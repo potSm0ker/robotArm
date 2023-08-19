@@ -1,4 +1,4 @@
-#YoloV5 custom trained models
+# YoloV5 custom trained models
 
 These are yolo v5 custom models. Trained for identifying branches, buds, and individual leaves of dried cannabis. 
 Photos of cannabis branches that I have physical access to were used to train the models
