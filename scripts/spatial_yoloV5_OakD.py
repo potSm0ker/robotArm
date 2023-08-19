@@ -10,13 +10,19 @@ import argparse
 
 '''
 Spatial YoloV5 example
-Use tools.luxonis.com to convert your yolov5 custom model to a blob file that can be used by Oak D. Set input image shape to 416 and shaves to 5 for best results. The converter will put a few files in a zip for you to download. 
-I used Oak d pro connected to jetson nano 4gb with custom yolov5 model converted to blob to run this script.
+Use tools.luxonis.com to convert your yolov5 custom model to a blob file that 
+can be used by Oak D camera. Set input image shape to 416 and shaves to 5 for best results. 
+The converter will put a few files in a zip for download.
 
-  Performs inference on RGB camera and retrieves spatial location coordinates: x,y,z relative to the center of depth map.
-  Can be used for custom yolov5 networks change line 23 to your blob path.
+I used Oak d pro connected to jetson nano 4gb with custom yolov5 model converted to 
+blob to run this script.
 
-I used the spatial_tiny_yolo script and modified a few lines to work with yoloV5. I made sure to change the spatialDetectionNetwork.setAnchorMasks and spatialDetectionNetwork.setAnchors to match the info in my json file obtained from blob zip downloaded from tools.luxonis.com. Lines 92 and 93
+Performs inference on RGB camera and retrieves spatial location coordinates: x,y,z relative to the center of depth map.
+Can be used for custom yolov5 networks change line 23 to your blob path.
+
+I used the spatial_tiny_yolo script and modified a few lines to work with yoloV5. I made sure to change the 
+spatialDetectionNetwork.setAnchorMasks and spatialDetectionNetwork.setAnchors to match the info in my json file
+obtained from blob zip downloaded from tools.luxonis.com. Lines 92 and 93
  '''
 
 parser = argparse.ArgumentParser(description="Spatial yoloV5 example")
