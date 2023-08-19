@@ -1,6 +1,8 @@
 import numpy as np
 import cv2
 
+#this script is for live object detection. trackbars are used to change the amount of edges detected in camera frame
+#uses standard webcam connected via usb
 
 def nothing(x):
     pass
