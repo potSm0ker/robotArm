@@ -45,6 +45,7 @@ I am modifying a Yahboom Robot Arm with Jetson NANO 4GB(SUB) purchased from [ama
 - Im using a 17" HDMI monitor, wireless keyboard and mouse plugged into USB on the Jetson Nano, which is plugged into yahboom control board. Use the terminal to run python scripts directly on the robot. This is the easiest way and gives the user complete control over the robot.
 
 </details>
+
 - I am modifying an off the shelf robot, and using as many off the shelf parts as possible. I will list the official sites of the parts used in this project.
 - The official documentation/code for the arm is @ [6DOFBot-jetson_nano on github](https://github.com/YahboomTechnology/dofbot-jetson_nano.git)
 - The official website is [yahboom robots](http://www.yahboom.net/home) 
