@@ -15,7 +15,7 @@ I am modifying a Yahboom Robot Arm with Jetson NANO 4GB(SUB) purchased from [ama
 
 <summary> ****The pair of robot arms should do the following:**** </summary>
 
-- trim = remove all fan leaves using standard trimming [scissors](http://www.chikamasa.com/products/index.cgi?key=27) (see assets for product example photos) I will be using CHIKAMASA B-500SF shears
+- trim = remove all fan leaves using standard trimming [scissors](http://www.chikamasa.com/products/index.cgi?key=27) (see workspaceExamples directory) I will be using CHIKAMASA B-500SF shears
 
 - Able to grasp a branch or bud with pincer-type end effector(2 finger claw)
 
