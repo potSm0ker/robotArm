@@ -1,6 +1,6 @@
 ## To Do List
 
-##physical trim test
+## physical trim test
 - can the robot claw actually cut leaves using the scissors?
 - I did some physical tests, leaves can be cut but the scissors move quite a bit and the claw does not close tight enough to cut efficiently.
 - I held a branch in hand and set the claw to automatically close the scissors when a bud is detected in range o camera. With current bus servo, the scissors can barely cut the leaves. I need a servo with more torque to be able to cut through the leaves and stems
