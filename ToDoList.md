@@ -1,7 +1,7 @@
 ## To Do List
 
 ## Physical trim test with scissors on end effector(claw)
-- replace servo, i need a male to micro jst adapter to connect the 35kg servo the yahboom robot servos, the cord connections do not match
+- i need to get a Cable Futaba Female To JST 50mm to replace servo, i need a male to micro jst adapter to connect the 35kg servo the yahboom robot servos, the cord connections do not match
 - using custom yolov5s model and Oak D camera, i created a script that would open and close scissors when a bud is detected within 600mm of the camera.  
 - attempted to trim leaves and cut buds from branches
 - the scissors will not close with enough torque to remove the bud from the stem(branch). some of the leaves can be trimmed
