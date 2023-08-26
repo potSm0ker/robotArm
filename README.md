@@ -6,13 +6,6 @@
 
 Create a pair of electric robotic arms that can **automatically** trim dried cannabis flowers using a standard pair of trimming scissors. **The target goal is to trim 1 pound of cannabis in 8 hours time.** The arm uses servo motors to rotate the joints. For vision- open cv or other methods of object detection using one or more cameras. The arm will be able to grasp (using a two fingered-claw) a branch or bud from a bin full of branches, then hold the branch while a second arm with standard trimming scissors attached (to the claw) will trim the buds. The finished buds will be dropped into a bucket when complete. The average human trimmer would trim for about 7.2 hours in a standard work day, 1 pound of trimmed cannabis would be the expected minimum after 8 hours. 2 pounds would be a high amount for a human trimmer in a standard 8 hour work day.
 
-</details>
-
-I am modifying a Yahboom Robot Arm with Jetson NANO 4GB(SUB) purchased from [amazon.com](https://www.amazon.com/Yahboom-Controlled-Programmable-Robotics-Identity/dp/B09T96PS3S/ref=asc_df_B09T96PS3S/?tag=hyprod-20&linkCode=df0&hvadid=647177154660&hvpos=&hvnetw=g&hvrand=9522090457653424090&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9029977&hvtargid=pla-1948863623457&psc=1&gclid=CjwKCAjw-vmkBhBMEiwAlrMeF-Z9-dOB8Xg7fpWzmVdcTm2_Ga3R2E9iPS-FwKbWelSRKJymOayAkxoCRlYQAvD_BwE)
-Don't bother contacting customer support for the robot: support@yahboom.com  They answer general questions but they are unwilling to provide information that would be helpful to upgrade the robot. They advise against modifying the "toy robot" that they sell in anyway. I will turn this toy into something useful, at the moment yahboom robots are not much more than $700 paperweights.
-
-<details>
-
 <summary> ****The pair of robot arms should do the following:**** </summary>
 
 - trim = remove all fan leaves using standard trimming [scissors](http://www.chikamasa.com/products/index.cgi?key=27) (see workspaceExamples directory) I will be using CHIKAMASA B-500SF shears(I refer to them as scissors)
@@ -31,6 +24,13 @@ Don't bother contacting customer support for the robot: support@yahboom.com  The
 - Branch arm able to identify fan leaves on bud and coordinate with scissor arm to remove all fan leaves.
 
 - Branch arm able to rotate the bud/branch while scissor arm opens and closes scissors to complete trim.
+
+</details>
+
+I am modifying a Yahboom Robot Arm with Jetson NANO 4GB(SUB) purchased from [amazon.com](https://www.amazon.com/Yahboom-Controlled-Programmable-Robotics-Identity/dp/B09T96PS3S/ref=asc_df_B09T96PS3S/?tag=hyprod-20&linkCode=df0&hvadid=647177154660&hvpos=&hvnetw=g&hvrand=9522090457653424090&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9029977&hvtargid=pla-1948863623457&psc=1&gclid=CjwKCAjw-vmkBhBMEiwAlrMeF-Z9-dOB8Xg7fpWzmVdcTm2_Ga3R2E9iPS-FwKbWelSRKJymOayAkxoCRlYQAvD_BwE)
+Don't bother contacting customer support for the robot: support@yahboom.com  They answer general questions but they are unwilling to provide information that would be helpful to upgrade the robot. They advise against modifying the "toy robot" that they sell in anyway. I will turn this toy into something useful, at the moment yahboom robots are not much more than $700 paperweights.
+
+<details>
 
 </details>
 
