@@ -1,6 +1,9 @@
 ## To Do List
 
 ## Physical trim test with scissors on end effector(claw)
+- the yahboom expansion board(see hardware info) has connections for pwm servos(3 wire signal, positive and ground), I may be able to connect 35kg servo on claw directly to expansion board. and run scissor test.
+- get a servo tester and battery pack to do scissor test with 35kg servo needs 6v for max torque, only 2 volts can be supplied through micro jst connection, so i may not have enough volts(torque) to trim the leaves. The yahboom expansion board may not be able to provide enough power to servos to trim leaves. 
+- servos connected to robots usea micro jst PH2.0-3pin cables to chain servos together and connect to expansion board.
 - [servo adapter](https://www.helidirect.com/products/micro-ikon-brain-servo-adapter-standard-jr-futaba-connector-to-jst?currency=USD&utm_source=googleads&utm_campaign=17920518873&utm_medium=ad&utm_content=614199139432&utm_term=&gclid=Cj0KCQjw3JanBhCPARIsAJpXTx4ntVsp2woGyBfCZQ4ViIqE4ZeD16KjYCa8sjP82epke8_H2l83EFoaAvKqEALw_wcB)
 - i need to get a JR Female To JST 50mm to replace servo, i need a male JR connectro to micro jst adapter to connect the 35kg servo the yahboom robot servos, the cord connections do not match
 - using custom yolov5s model and Oak D camera, i created a script that would open and close scissors when a bud is detected within 600mm of the camera.  
