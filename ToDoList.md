@@ -1,34 +1,23 @@
 ## To Do List
 
-## Physical trim test with scissors on end effector(claw)
-- the yahboom expansion board(see hardware info) has connections for pwm servos(3 wire signal, positive and ground), I may be able to connect 35kg servo on claw directly to expansion board. and run scissor test.
-- get a servo tester and battery pack to do scissor test with 35kg servo needs 6v for max torque, only 2 volts can be supplied through micro jst connection, so i may not have enough volts(torque) to trim the leaves. The yahboom expansion board may not be able to provide enough power to servos to trim leaves. 
-- servos connected to robots usea micro jst PH2.0-3pin cables to chain servos together and connect to expansion board.
-- [servo adapter](https://www.helidirect.com/products/micro-ikon-brain-servo-adapter-standard-jr-futaba-connector-to-jst?currency=USD&utm_source=googleads&utm_campaign=17920518873&utm_medium=ad&utm_content=614199139432&utm_term=&gclid=Cj0KCQjw3JanBhCPARIsAJpXTx4ntVsp2woGyBfCZQ4ViIqE4ZeD16KjYCa8sjP82epke8_H2l83EFoaAvKqEALw_wcB)
-- i need to get a JR Female To JST 50mm to replace servo, i need a male JR connectro to micro jst adapter to connect the 35kg servo the yahboom robot servos, the cord connections do not match
+## Physical trim test with scissors on end effector(claw), first arm
+- i need to connect 5 other servos to servo hat to give arm 6 degrees of freedom.
+- need algorithm to control position of scissors in relation to the bud
+- using oak d camera determine positions of leaves on bud
+- i switched from the jetson nano to a RaspberryPi 4 with a servo hat attached.
+- Upgraded the servo on the end effector, 35kg coreless digital servo.
+- has enough torque to cut through leaves and branches.
+
 - using custom yolov5s model and Oak D camera, i created a script that would open and close scissors when a bud is detected within 600mm of the camera.  
 - attempted to trim leaves and cut buds from branches
-- the scissors will not close with enough torque to remove the bud from the stem(branch). some of the leaves can be trimmed
-- the servo on the end effector currently is 6kg according to yahboom specs 
-- I will replace the servo motor that controls the scissors with a [25KG Metal Digital Servo](https://category.yahboom.net/products/high-torque-servo?variant=44011229511996). may try 35kg and 45kg if i need more torque.
+- 
 
 ## How will robot trim the bud with scissors?
 - get distance between camera and scissors, when detected leaf matches the distance of the scissors the scissors should close, then open and repeat until leaves are not detected
 - using oak d camera/yolov5, get the x,y,z coordinates of the leaves that need to be cut.
-- scan bud and determine locations of leaf
 - use the 'z' coordinate to create a boundary at the scissors, when the bud leaf crosses the threshold, the scissors should close.
 
-- spatial calculation- get distance and location of bud to direct the claw holding the scissors
-- use yolov5?
-
-  
-
-
-
-- Use yolov5 custom model to get coordinates of branch/bud in frame.
-
-- create virtual environments with python3.8(at least) to install requirements 
-  
+- spatial calculation- get distance and location of bud to direct the claw holding the scissors  
 
 https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/YoloV5_training.ipynb
 
@@ -37,7 +26,7 @@ https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master
 
 
 
-## slide rail how should slide rail move?
+## for second arm that will pick up branches or buds slide rail how should slide rail move?
 - i will need a pair of arms to trim, but only one needs to be vertically mobile.
 - get a second arm, hiwonder jetmax with slide rail 
 - ***how can i program the slide rail to move the robot up and down when needed, automatically. it needs a signal when the arm needs to grab a branch, and it needs a signal when the branch has been trimmed. 
