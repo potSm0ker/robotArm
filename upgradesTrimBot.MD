@@ -1,5 +1,9 @@
-To make the robot arm (with jetson nano 4gb) do what I need to do, it will need some upgrades. I will turn this toy into a tool.
-A useful website for [jetson nano hacks](https://www.jetsonhacks.com/)
+To make the robot arm (with raspberry pi 4) do what I need to do, it will need some upgrades. I will turn this toy into a tool.
+
+### Raspberry Pi 4 with geeekpi ice tower cooling fan and servo hat
+ - using [raspberry pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) for computing and to control servos
+ - pwm  16 servo hat from adafruit
+ - geekpi ice tower cooling fan
 
 ### Vision - Oak-D pro camera(manual focus) from [Luxonis](https://shop.luxonis.com/products/oak-d-pro)
  - detection model can run on camera, inference results will be sent to nano
@@ -15,7 +19,8 @@ A useful website for [jetson nano hacks](https://www.jetsonhacks.com/)
  - run  gparted    in the terminal to see partitions and expand the file system partion to use the entire 500 gb SSD, in my case it was /dev/sda1 
  - boot from usb [jetsonhacks.com](https://jetsonhacks.com/2021/03/10/jetson-nano-boot-from-usb/)
  - create backups of critical files before attempting, loss of data may occur when trying to remount file system
- 
+
+A useful website for [jetson nano hacks](https://www.jetsonhacks.com/) 
 
 
 
