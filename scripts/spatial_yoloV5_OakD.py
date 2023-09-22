@@ -14,7 +14,7 @@ Use tools.luxonis.com to convert your yolov5 custom model to a blob file that
 can be used by Oak D camera. Set input image shape to 416 and shaves to 5 for best results. 
 The converter will put a few files in a zip for download.
 
-I used Oak d pro connected to jetson nano 4gb with custom yolov5 model converted to 
+I used Oak d pro connected to raspberry pi 8gb with custom yolov5 model converted to 
 blob to run this script.
 
 Performs inference on RGB camera and retrieves spatial location coordinates: x,y,z relative to the center of depth map.
