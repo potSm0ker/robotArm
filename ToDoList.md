@@ -3,11 +3,12 @@
 ## Physical trim test with scissors on end effector(claw), first arm
 - how to identify and return position of leaves that need to be trimmed
 - position, open and close the scissors to accurately and efficiently trim the leaves
+- range for oak d camera- Ideal range: 70cm - 8m, MinZ: ~20cm (400P, extended), ~35cm (400P OR 800P, extended), ~70cm (800P)
 - what position should the camera be in relation to the scissors? behind or in front of scissors? attached to arm or on a seperate stand
 - yolo v5 image segmentation to identify the coordinates of trim leaves
 - need algorithm to control position of scissors in relation to the bud
 - use oak d camera determine positions of leaves on bud
-
+  
 - using custom yolov5s model and Oak D camera, i created a script that would open and close scissors when a bud is detected within 600mm of the camera.  
 
 ## How will robot trim the bud with scissors?
@@ -22,6 +23,8 @@ https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master
 
 
 ## for second arm that will pick up branches or buds slide rail how should slide rail move?
+
+- [servo motor driver](https://roboteurs.com/products/slushengine?variant=19782069764) SlushEngine: Model X LT Stepper Motor Driver
 - i will need a pair of arms to trim, but only one needs to be vertically mobile.
 - get a second arm, hiwonder jetmax with slide rail 
 - ***how can i program the slide rail to move the robot up and down when needed, automatically. it needs a signal when the arm needs to grab a branch, and it needs a signal when the branch has been trimmed. 
