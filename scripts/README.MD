@@ -1,1 +1,2 @@
-These are individual scripts that I am using to control the robot and help me complete my goal of creating a pair of autonomous cannabis trimming robot arms.
+These are scripts that I am using to control the robot and help me complete my goal of creating a pair of autonomous cannabis trimming robot arms.
+Some of these scripts ma only work on a raspberry pi. In the jetson nano folder are scripts that were developed for use on with the jetson nano and yahboom expansion board. I started this project with the jetson nano and expansion board but switched to raspberry pi 4 because it is much more user friendly and has a larger community providing more answers to questions.
