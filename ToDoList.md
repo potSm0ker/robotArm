@@ -1,23 +1,18 @@
 ## To Do List
 
 ## Physical trim test with scissors on end effector(claw), first arm
-- i need to connect 5 other servos to servo hat to give arm 6 degrees of freedom.
+- how to identify and return position of leaves that need to be trimmed
+- position, open and close the scissors to accurately and efficiently trim the leaves
+- what position should the camera be in relation to the scissors? behind or in front of scissors? attached to arm or on a seperate stand
+- yolo v5 image segmentation to identify the coordinates of trim leaves
 - need algorithm to control position of scissors in relation to the bud
-- using oak d camera determine positions of leaves on bud
-- i switched from the jetson nano to a RaspberryPi 4 with a servo hat attached.
-- Upgraded the servo on the end effector, 35kg coreless digital servo.
-- has enough torque to cut through leaves and branches.
+- use oak d camera determine positions of leaves on bud
 
 - using custom yolov5s model and Oak D camera, i created a script that would open and close scissors when a bud is detected within 600mm of the camera.  
-- attempted to trim leaves and cut buds from branches
-- 
 
 ## How will robot trim the bud with scissors?
 - get distance between camera and scissors, when detected leaf matches the distance of the scissors the scissors should close, then open and repeat until leaves are not detected
-- using oak d camera/yolov5, get the x,y,z coordinates of the leaves that need to be cut.
 - use the 'z' coordinate to create a boundary at the scissors, when the bud leaf crosses the threshold, the scissors should close.
-
-- spatial calculation- get distance and location of bud to direct the claw holding the scissors  
 
 https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/YoloV5_training.ipynb
 
