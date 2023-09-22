@@ -28,8 +28,8 @@ Create a pair of electric robotic arms that can **automatically** trim dried can
 </details>
 
 
-I am using a RaspberryPi 4 attached to a robot arm purchased from [amazon.com](https://www.amazon.com/Yahboom-Controlled-Programmable-Robotics-Identity/dp/B09T96PS3S/ref=asc_df_B09T96PS3S/?tag=hyprod-20&linkCode=df0&hvadid=647177154660&hvpos=&hvnetw=g&hvrand=9522090457653424090&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9029977&hvtargid=pla-1948863623457&psc=1&gclid=CjwKCAjw-vmkBhBMEiwAlrMeF-Z9-dOB8Xg7fpWzmVdcTm2_Ga3R2E9iPS-FwKbWelSRKJymOayAkxoCRlYQAvD_BwE)
-Look at this repository, [Moveo robot arm BCN3D](https://github.com/BCN3D/BCN3D-Moveo) I may adapt the design for my uses
+- I am using a RaspberryPi 4 attached to a robot arm purchased from [amazon.com](https://www.amazon.com/Yahboom-Controlled-Programmable-Robotics-Identity/dp/B09T96PS3S/ref=asc_df_B09T96PS3S/?tag=hyprod-20&linkCode=df0&hvadid=647177154660&hvpos=&hvnetw=g&hvrand=9522090457653424090&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9029977&hvtargid=pla-1948863623457&psc=1&gclid=CjwKCAjw-vmkBhBMEiwAlrMeF-Z9-dOB8Xg7fpWzmVdcTm2_Ga3R2E9iPS-FwKbWelSRKJymOayAkxoCRlYQAvD_BwE)
+- For a complete 3d printable robot arm, [Moveo BCN3D](https://github.com/BCN3D/BCN3D-Moveo) I may adapt the design for my uses
 
 <details>
 
