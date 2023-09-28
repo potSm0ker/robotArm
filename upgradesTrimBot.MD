@@ -1,4 +1,6 @@
-To make the robot arm (with raspberry pi 4) do what I need to do, it will need some upgrades. I will turn this toy into a tool.
+To make the robot arm (with raspberry pi 4) do what I need to do, it will need some upgrades. 
+
+# Current parts list
 
 ### Raspberry Pi 4 with geeekpi ice tower cooling fan and servo hat
  - using [raspberry pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) for computing and to control servos
@@ -11,7 +13,13 @@ To make the robot arm (with raspberry pi 4) do what I need to do, it will need s
  - yolov5 for locating and picking branches from bin
  - created custom bracket in blender to mount camera to robot
  - custom bracket 3d printed on [Xometry.com](https://www.xometry.com/)
- - 3d model for custom Oak-D pro bracket available in Hardware Info folder
+
+
+
+# August 2023 - no longer using the parts below
+
+### Jetson nano developer kit attached to yahboom expansion board
+ - started with a jetson nano, the expansion board it was attached to had no documentation that I could find, so I switched to a raspberry pi 4 with gb ram and pwm servo hat to drive the servos.
 
 ### Increase storage  SAMSUNG T7 Portable SSD 500GB
  - I used win32disk imager to write the custom jetson image provided by yahboom for the robot arm
@@ -19,11 +27,6 @@ To make the robot arm (with raspberry pi 4) do what I need to do, it will need s
  - run  gparted    in the terminal to see partitions and expand the file system partion to use the entire 500 gb SSD, in my case it was /dev/sda1 
  - boot from usb [jetsonhacks.com](https://jetsonhacks.com/2021/03/10/jetson-nano-boot-from-usb/)
  - create backups of critical files before attempting, loss of data may occur when trying to remount file system
-
-A useful website for [jetson nano hacks](https://www.jetsonhacks.com/) 
-
-
-
 
 ### Upgrade cooling fan and heat sink - GeeekPi 5V PWM Low-Profile CPU Cooler
  - I upgraded to [Ice tower cooling fan](https://www.amazon.com/GeeekPi-Low-Profile-Horizontal-Radiator-Colorful/dp/B07ZYW6ZVR/ref=sr_1_3?crid=2GY7QMQU6IJJ&keywords=ice+tower+cooling+fan+jetson+nano&qid=1690327939&sprefix=ice+tower+cooling+fan+jetson+nano%2Caps%2C132&sr=8-3) from amazon.com
