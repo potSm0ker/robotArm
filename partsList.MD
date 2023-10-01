@@ -25,8 +25,9 @@ To make the robot arm (with raspberry pi 4) do what I need to do, I will use off
 ### yahboom robot arm end effector and baseplate, stripped everything else off
  - started with a robot arm kit from yahboom, however I could not update jetson nano, nor use the serial servos it came with. Also, the brackets for the arm only fit the servos from yahboom
  - attached scissors to end effector, upgrade servo on bottom of end effector
-# As of August 2023 - no longer using the parts below
 
+
+### As of August 2023 - no longer using the parts below
 ### Jetson nano developer kit attached to yahboom expansion board
  - started with a jetson nano, the expansion board it was attached to had no documentation that I could find, so I switched to a raspberry pi 4 with gb ram and pwm servo hat to drive the servos.
 
