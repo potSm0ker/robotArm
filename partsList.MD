@@ -31,6 +31,9 @@ To make the robot arm (with raspberry pi 4) do what I need to do, I will use off
  
 #### [scissors CHIKAMASA B-500SF Stainless Steel](https://www.amazon.com/Chikamasa-Stainless-Scissors-Fluorine-Resin-resistant/dp/B00JSYB9I6/ref=asc_df_B00JSYB9I6/?tag=hyprod-20&linkCode=df0&hvadid=229261240507&hvpos=&hvnetw=g&hvrand=7797966275015044966&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9029977&hvtargid=pla-393545955103&psc=1)
 
+ - standard trimming scissors, cheap and effective, widely used. 
+ - The shape of the handle makes it easy to attach to the end effector
+
 
 
 **** As of August 2023 - no longer using the parts below ****
