@@ -7,7 +7,7 @@ To make the robot arm (with raspberry pi 4) do what I need to do, I will use off
  - attached a 20kg dual output servo to give it 3 Dof
  - attached the end effector from yahboom robot arm to the 20kg servo to achieve 4 dof.
 
-### Raspberry Pi 4 with geeekpi ice tower cooling fan, 16 pwm servo hat and extra tall case
+#### Raspberry Pi 4 with geeekpi ice tower cooling fan, 16 pwm servo hat and extra tall case
  - using [raspberry pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) for computing and to control servos
  - pwm  16 [servo hat](https://www.adafruit.com/product/2327) from adafruit
  - [geekpi ice tower cooling fan](https://www.amazon.com/GeeekPi-Raspberry-Low-Profile-Cooling-Heatsink/dp/B07ZV1LLWK/ref=asc_df_B07ZV1LLWK/?tag=&linkCode=df0&hvadid=416672671431&hvpos=&hvnetw=g&hvrand=15694554880292079333&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9029971&hvtargid=pla-871699005978&ref=&adgrpid=95587150204&th=1)
