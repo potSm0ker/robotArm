@@ -2,6 +2,12 @@ import tkinter as tk
 from tkinter import Scale, Button
 from adafruit_servokit import ServoKit
 
+#this script was created with chatgpt 3.5 september 2023 free version.
+#this script will control servos attached to a pwm 16 servo hat from adafruit
+#it creates a gui using tkinter with a button and slider for each servo
+#also has an exit button that will close the script
+# i am currently using a raspberry pi 4 with 64 bit os and 4 different pwm servos
+
 # Initialize the ServoKit
 kit = ServoKit(channels=16)  # Use the default I2C address
 
@@ -25,7 +31,7 @@ def update_servo(servo_num):
 # Create a function to handle slider updates
 def slider_update(servo_num):
     return lambda event: update_servo(servo_num)
-
+#create the buttons and sliders for servos
 for i in range(4):
     servo_frame = tk.Frame(root)
     servo_frame.pack(side=tk.LEFT, padx=20, pady=20)
