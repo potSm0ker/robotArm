@@ -49,4 +49,4 @@ To make the robot arm (with raspberry pi 4) do what I need to do, I will use off
  - create backups of critical files before attempting, loss of data may occur when trying to remount file system
 
 #### Upgrade cooling fan and heat sink - GeeekPi 5V PWM Low-Profile CPU Cooler
- - I upgraded to [Ice tower cooling fan](https://www.amazon.com/GeeekPi-Low-Profile-Horizontal-Radiator-Colorful/dp/B07ZYW6ZVR/ref=sr_1_3?crid=2GY7QMQU6IJJ&keywords=ice+tower+cooling+fan+jetson+nano&qid=1690327939&sprefix=ice+tower+cooling+fan+jetson+nano%2Caps%2C132&sr=8-3) from amazon.com
+ - I upgraded to [Ice tower cooling fan](https://www.amazon.com/GeeekPi-Low-Profile-Horizontal-Radiator-Colorful/dp/B07ZYW6ZVR/ref=sr_1_3?crid=2GY7QMQU6IJJ&keywords=ice+tower+cooling+fan+jetson+nano&qid=1690327939&sprefix=ice+tower+cooling+fan+jetson+nano%2Caps%2C132&sr=8-3)
