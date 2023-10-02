@@ -24,26 +24,26 @@ To make the robot arm (with raspberry pi 4) do what I need to do, I will use off
  - created custom bracket in blender to mount camera to robot
  - custom bracket 3d printed on [Xometry.com](https://www.xometry.com/)
 
-### yahboom robot arm end effector and baseplate, stripped everything else off
+#### yahboom robot arm end effector and baseplate, stripped everything else off
  - I attached scissors to end effector and upgraded servo on bottom of end effector 
  - started with this [robot arm kit](https://www.amazon.com/Yahboom-Raspberry-Building-Programmable-Electronic/dp/B09V7H7V9Q/ref=asc_df_B09V7H7V9Q/?tag=hyprod-20&linkCode=df0&hvadid=673818249115&hvpos=&hvnetw=g&hvrand=11886040620678903792&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9029977&hvtargid=pla-2401058327752&psc=1&gclid=CjwKCAjwseSoBhBXEiwA9iZtxvgBvlNrhx7YjR7deNZ5poqzRaRxqfmWdkdNQDw5p8ll-8gpVQGwcxoCNZEQAvD_BwE) 
  - from yahboom, however I could not update jetson nano, nor use the serial servos it came with. Also, the brackets for the arm only fit the servos from yahboom
  
-### [scissors CHIKAMASA B-500SF Stainless Steel](https://www.amazon.com/Chikamasa-Stainless-Scissors-Fluorine-Resin-resistant/dp/B00JSYB9I6/ref=asc_df_B00JSYB9I6/?tag=hyprod-20&linkCode=df0&hvadid=229261240507&hvpos=&hvnetw=g&hvrand=7797966275015044966&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9029977&hvtargid=pla-393545955103&psc=1)
+#### [scissors CHIKAMASA B-500SF Stainless Steel](https://www.amazon.com/Chikamasa-Stainless-Scissors-Fluorine-Resin-resistant/dp/B00JSYB9I6/ref=asc_df_B00JSYB9I6/?tag=hyprod-20&linkCode=df0&hvadid=229261240507&hvpos=&hvnetw=g&hvrand=7797966275015044966&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9029977&hvtargid=pla-393545955103&psc=1)
 
 
 
 **** As of August 2023 - no longer using the parts below ****
 
-### Jetson nano developer kit attached to yahboom expansion board
+#### Jetson nano developer kit attached to yahboom expansion board
  - started with a jetson nano, it was difficult to do anything with the jetson nano. the expansion board it was attached to had no documentation that I could find, so I switched to a raspberry pi 4 with 8 gb ram and pwm servo hat to drive the servos.
 
-### Increase storage  SAMSUNG T7 Portable SSD 500GB
+#### Increase storage  SAMSUNG T7 Portable SSD 500GB
  - I used win32disk imager to write the custom jetson image provided by yahboom for the robot arm
  - running operations on the jetson nano is much faster using an external ssd via usb3 rather than a micro usb drive.
  - run  gparted    in the terminal to see partitions and expand the file system partion to use the entire 500 gb SSD, in my case it was /dev/sda1 
  - boot from usb [jetsonhacks.com](https://jetsonhacks.com/2021/03/10/jetson-nano-boot-from-usb/)
  - create backups of critical files before attempting, loss of data may occur when trying to remount file system
 
-### Upgrade cooling fan and heat sink - GeeekPi 5V PWM Low-Profile CPU Cooler
+#### Upgrade cooling fan and heat sink - GeeekPi 5V PWM Low-Profile CPU Cooler
  - I upgraded to [Ice tower cooling fan](https://www.amazon.com/GeeekPi-Low-Profile-Horizontal-Radiator-Colorful/dp/B07ZYW6ZVR/ref=sr_1_3?crid=2GY7QMQU6IJJ&keywords=ice+tower+cooling+fan+jetson+nano&qid=1690327939&sprefix=ice+tower+cooling+fan+jetson+nano%2Caps%2C132&sr=8-3) from amazon.com
