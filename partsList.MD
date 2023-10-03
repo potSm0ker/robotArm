@@ -24,6 +24,10 @@ To make the robot arm (with raspberry pi 4) do what I need to do, I will use off
  - created custom bracket in blender to mount camera to robot
  - custom bracket 3d printed on [Xometry.com](https://www.xometry.com/)
 
+### [Claw Grabber 2 Inch Gripping Diameter](https://www.amazon.com/USAQ-Aluminum-Controlled-Gripping-Diameter/dp/B07GDV5GRK/ref=asc_df_B07GDV5GRK/?tag=hyprod-20&linkCode=df0&hvadid=642171666674&hvpos=&hvnetw=g&hvrand=8108213334431181913&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9029971&hvtargid=pla-1187290532840&psc=1&gclid=CjwKCAjw9-6oBhBaEiwAHv1QvLi7qsL5jcDAAk6qmBpwHxgxUHbxkHlQvZUGv1W9gToZH7bM6vsJ4RoCEg8QAvD_BwE)
+ - Aluminum Alloy, Servo Controlled - connects to servo
+ - cheap aluminum 2 inch gripper
+
 #### yahboom robot arm end effector and baseplate, stripped everything else off
  - I attached scissors to end effector and upgraded servo on bottom of end effector 
  - started with this [robot arm kit](https://www.amazon.com/Yahboom-Raspberry-Building-Programmable-Electronic/dp/B09V7H7V9Q/ref=asc_df_B09V7H7V9Q/?tag=hyprod-20&linkCode=df0&hvadid=673818249115&hvpos=&hvnetw=g&hvrand=11886040620678903792&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9029977&hvtargid=pla-2401058327752&psc=1&gclid=CjwKCAjwseSoBhBXEiwA9iZtxvgBvlNrhx7YjR7deNZ5poqzRaRxqfmWdkdNQDw5p8ll-8gpVQGwcxoCNZEQAvD_BwE) 
