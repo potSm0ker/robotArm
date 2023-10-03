@@ -1,6 +1,8 @@
 ## To Do List
 
-## Physical trim test with scissors on end effector(claw), first arm
+- I contacted a few robot companies, that sell the $3k and up type of robot arms, for more information about the capabilities of their expensive robots, no response recieved. So I will probably have to design this from scratch myself, I am the only one in a position to benefit from this robot design so it seems fitting that I am on my own. I have a real world application I can immediately apply it to if I can put all the pieces together before I lose my position here.
+  
+- physical trim test performed with 55kg servo, leaves can be trimmed, however the tip of the scissors are not getting enough torque to cut through the branch at the branch/bud intersection. May provide higher voltage to servo
 - how to identify and return position of leaves that need to be trimmed
 - position, open and close the scissors to accurately and efficiently trim the leaves
 - range for oak d camera- Ideal range: 70cm - 8m, MinZ: ~20cm (400P, extended), ~35cm (400P OR 800P, extended), ~70cm (800P)
