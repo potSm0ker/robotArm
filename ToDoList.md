@@ -1,21 +1,18 @@
 ## To Do List
+- i want to recreate the motion of two human arms, one connected to a pair of scissors, the other holding a branch. I will focus on the scissor arm first, when that is able to cut through branches and leaves correctly, I will work on the holding arm.
+******* 
 
-- I contacted a few robot companies, that sell the $3k and up type of robot arms, for more information about the capabilities of their expensive robots, no response recieved. So I will probably have to design this from scratch myself, I am the only one in a position to benefit from this robot design so it seems fitting that I am on my own. I have a real world application I can immediately apply it to if I can put all the pieces together before I lose my position here.
-  
-- physical trim test performed with 55kg servo, leaves can be trimmed, however the tip of the scissors are not getting enough torque to cut through the branch at the branch/bud intersection. May provide higher voltage to servo
+- Use a buck down converter [such as](https://www.amazon.com/DROK-Adjustable-Converter-Transformer-Protective/dp/B07JZ2GQJF/ref=sr_1_5?keywords=buck%2Bconverter%2B5a&qid=1577364346&sr=8-5&th=1) with 12v supply to provide 8.4v to scissor_servo
+- 3 other servos only require 5 volts, however i want to plug everything into one pwm servo hat if possible
+- The tip of the scissor gap must have sufficient torque to cut the branch and seperate the bud from branch
+- physical trim test performed with 55kg servo, leaves can be trimmed, however the tip of the scissors are not getting enough torque to cut through the branch at the branch/bud intersection.
+- may need to redesign end effector
+- yolov8 segmentation? combined with oak d multiple nn detections
 - how to identify and return position of leaves that need to be trimmed
-- position, open and close the scissors to accurately and efficiently trim the leaves
 - range for oak d camera- Ideal range: 70cm - 8m, MinZ: ~20cm (400P, extended), ~35cm (400P OR 800P, extended), ~70cm (800P)
-- what position should the camera be in relation to the scissors? behind or in front of scissors? attached to arm or on a seperate stand
-- yolo v5 image segmentation to identify the coordinates of trim leaves
-- need algorithm to control position of scissors in relation to the bud
-- use oak d camera determine positions of leaves on bud
-  
-- using custom yolov5s model and Oak D camera, i created a script that would open and close scissors when a bud is detected within 600mm of the camera.  
-
-## How will robot trim the bud with scissors?
-- get distance between camera and scissors, when detected leaf matches the distance of the scissors the scissors should close, then open and repeat until leaves are not detected
-- use the 'z' coordinate to create a boundary at the scissors, when the bud leaf crosses the threshold, the scissors should close.
+- i attached camera to an extension rod and steel flat bar(14 inches), it is approximately 18 in from scissors, in a fixed location behind the scissors
+- for best results using spatial detection, the camera should be perpendicular with scissors, the spatial detection fails with distance of less than 11 inches  
+- using custom yolov5s model and Oak D camera, i created a script that would open and close scissors when a bud is detected within 600mm(z coord) of the camera.  
 
 https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/YoloV5_training.ipynb
 
