@@ -1,0 +1,2 @@
+Blender file contains modified parts, from the BNC3d robot arm Github repository.  I set it up so i could test the range of the arm and see how it interacts with working environment. 
+Created with blender 3.4
