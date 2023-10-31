@@ -2,8 +2,9 @@
 - i want to recreate the motion of two human arms, one connected to a pair of scissors, the other holding a branch. I will focus on the scissor arm first, when that is able to cut through branches and leaves correctly, I will work on the holding arm.
 ******* 
 
-- Use a buck down converter [such as](https://www.amazon.com/DROK-Adjustable-Converter-Transformer-Protective/dp/B07JZ2GQJF/ref=sr_1_5?keywords=buck%2Bconverter%2B5a&qid=1577364346&sr=8-5&th=1) with 12v supply to provide 8.4v to scissor_servo
-- 3 other servos only require 5 volts, however i want to plug everything into one pwm servo hat if possible
+- i obtained a 3d printer and will print a modified version of bnc3d moveo robot arm
+- i will redesign the scissor arm to use a nema 17 stepper motor to open and close the scissors, this should provide sufficient torque and precision. 
+
 - The tip of the scissor gap must have sufficient torque to cut the branch and seperate the bud from branch
 - physical trim test performed with 55kg servo, leaves can be trimmed, however the tip of the scissors are not getting enough torque to cut through the branch at the branch/bud intersection.
 - may need to redesign end effector
